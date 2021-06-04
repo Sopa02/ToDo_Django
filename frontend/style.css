@@ -1,0 +1,76 @@
+.container{
+    border: 1px solid black;
+    box-sizing: border-box;
+    min-height: 200px;
+    max-width: 500px;
+    margin-top: 10vh;
+}
+.input_holder{
+    width: 100%;
+    margin: 20px auto;
+}
+.input_holder input{
+    width: 70%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.input_holder button{
+    width: 25%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#todos{
+    width: 90%;
+    background-color: #222222;
+    color: rgb(240, 240, 240);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.task{
+    width: 95%;
+    border: 1px solid white;
+    margin: 5px auto;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.task:hover{
+    background-color: #363636;
+}
+
+.done{
+    text-decoration: line-through;
+    color: green;
+}
+.remove{
+    float: right;
+    max-width: 30px !important;
+    max-height: 30px !important;
+    float: right;
+    color: white;
+    background-color: rgb(121, 1, 1);
+    border:none;
+    transition: all 200ms;
+    font-weight: bolder;
+}
+.mod{
+    float: right;
+    max-width: 30px !important;
+    max-height: 30px !important;
+    float: right;
+    color: white;
+    background-color: rgba(121, 1, 1, 0.651);
+    border:none;
+    transition: all 200ms;
+    font-weight: bolder;
+}
+.remove:hover{
+    background-color:rgb(255, 0, 0);
+}
+.mod:hover{
+    background-color:rgb(155, 0, 0);
+}
+#modifyBtn{
+    display: none;
+}
